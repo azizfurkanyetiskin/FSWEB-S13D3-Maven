@@ -2,7 +2,7 @@ package org.example;
 
 public class Person {
 
-    private String firstname;
+    private String firstName;
     private String lastName;
     private int age;
 
@@ -10,21 +10,21 @@ public class Person {
     private String email;
     private String phoneNumber;
 
-    public Person(String firstname, String lastName, int age) {
-        this.firstname = firstname;
+    public Person(String firstName, String lastName, int age) {
+        this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
     }
 
-    public Person(String firstname, String lastName, int age, String city, String email, String phoneNumber) {
-        this(firstname, lastName, age);
+    public Person(String firstName, String lastName, int age, String city, String email, String phoneNumber) {
+        this(firstName, lastName, age);
         this.city = city;
         this.email = email;
         this.phoneNumber = phoneNumber;
     }
 
     public String getFirstName() {
-        return firstname;
+        return firstName;
     }
 
     public String getLastName() {
